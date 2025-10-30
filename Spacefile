@@ -1,0 +1,7 @@
+# Spacefile
+v: 0
+micros:
+  - name: anime-bot
+    src: .
+    engine: python3.12
+    run: python main.py
