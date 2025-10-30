@@ -100,3 +100,8 @@ if __name__ == "__main__":
 
 
     # python "D:/anime_Bot/bot.py"
+
+
+#     git add .
+# git commit -m "add new animes"
+# git push
