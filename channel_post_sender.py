@@ -21,7 +21,7 @@ async def send_post(message: types.Message):
         return
 
     # Rasm file_id
-    photo_file_id = "AgACAgIAAxkBAAPAaQABh_0cf7ygyAf-xs3Oqrr_qTQhAAIT-zEb46UBSFQilgRJwpLGAQADAgADeQADNgQ"
+    photo_file_id = "AgACAgIAAyEFAASg3IK3AAMbaQRyg7LWvohSq5yFSRF8LbT8UvUAAroDMht6bylIlWJdrnRCr80BAAMCAAN5AAM2BA"
 
     # Post caption
     caption = (
