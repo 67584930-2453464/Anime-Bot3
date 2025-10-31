@@ -25,13 +25,13 @@ async def send_post(message: types.Message):
 
     # Post caption
     caption = (
-        "*sening isming*\n\n"
+        "*Yolg'izlikda Daraja Ko'tarish Fasl-1*\n\n"
         "╭──────────────\n"
         "├‣ Holati: Tugallangan\n"
         "├‣ Sifat: 720p\n"
         "├‣ Janr: Romantika\n"
         # "├‣ Kanal: @Anime_lar_New\n"
-        "├‣ Qism: 1\n"
+        "├‣ Qism: 12\n"
         "╰──────────────\n\n"
         "👇 Pastdagi tugmani bosing 👇"
     )
@@ -41,7 +41,7 @@ async def send_post(message: types.Message):
     keyboard.add(
         types.InlineKeyboardButton(
             text="▶️ Tomosha qilish",
-            url="https://t.me/New_Anime_lar_Bot?start=sening_isming"
+            url="https://t.me/New_Anime_lar_Bot?start=solo_leveling-fasl1"
         )
     )
 
@@ -62,3 +62,5 @@ async def send_post(message: types.Message):
 if __name__ == "__main__":
     print("🤖 Bot ishga tushdi...")
     executor.start_polling(dp, skip_updates=True)
+
+# python "D:/anime_Bot/channel_post_sender.py"
