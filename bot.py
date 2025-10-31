@@ -8,7 +8,7 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")  # .env fayldan token olinadi
 
 # Bir nechta kanallarni shu ro‘yxatga yozamiz
-CHANNELS = ["@Web_Coding_UzIT", "@Doramalar_Ozbek_Tilida_Kanal"]
+CHANNELS = [ "@Doramalar_Ozbek_Tilida_Kanal"]
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
